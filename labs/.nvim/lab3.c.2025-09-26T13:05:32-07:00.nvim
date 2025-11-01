@@ -1,0 +1,11 @@
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_LEN 5
+
+char *history[MAX_LEN];
+int main()
+{
+
+}
