@@ -103,5 +103,5 @@ void reduce(Output *output) {
       printf(", ");
     }
   }
-  printf("])\n");
+  printf("])\n"); 
 }
