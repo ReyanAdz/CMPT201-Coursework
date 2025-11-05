@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+int main() 
+{
+  pid_t parent = getpid();
+  fork();
+  if ((long)getpid() == parent) {
+    printf("Parent\n");
+  } else {
+    printf("child pid");
+    printf("%ld", (long)getpid());
+  }
+}
